@@ -1,5 +1,5 @@
 // Package pgxtel traces the statements, preparations, and connection setups of a pgx connection,
-// measures each statement's duration, and reports a database/sql connection pool, all under the
+// measures each statement's duration, and reports a database/sql or pgxpool connection pool, all under the
 // OpenTelemetry database semantic conventions.
 //
 // File map:
